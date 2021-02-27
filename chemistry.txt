@@ -1,29 +1,29 @@
-Are two atoms of the same element identical?
-Can water stay liquid below zero degrees Celsius?
-Can you light diamond on fire?
-How bad of an alcoholic do you have to be to have your brain affected?
-How can glass be a liquid if it's so hard?
-How do I know if something is an acid so I can avoid eating it?
-How do plants get their nitrogen from the air?
-How does dissolving a salt molecule in water make its atoms ionize?
-How does plasma make a campfire flame orange?
-How does tomato juice make skunk smell go away?
-What is it about the ocean that makes it look blue when it reflects the sky?
-What is the difference between a chemical process and a physical process in chemistry?
-What kind of crystal are crystal drinking glasses made out of?
-What made the hole in the ozone go away?
-What makes a "fluorescent" highlighter marker so bright?
-When does the breaking of chemical bonds release energy?
-When hang-drying clothes, which is faster, indoors or outdoors?
-Which sunscreens are chemical-free?
-Why are crystals rare?
-Why are there so many different kinds of forces in chemistry?
-Why do atoms always contain the same number of electrons and protons?
-Why doesn't the planet Uranus explode if it contains so much hydrogen and methane?
-Why don't metals burn?
-Why don't objects fuse to my finger when I touch them?
-Why is ice slippery?
-Why is lead used in pencils even though lead is poisonous?
-Why is mass conserved in chemical reactions?
-Why is plastic not used in home construction?
-Why is propane stored in household tanks but natural gas is not?
+1.	Are two atoms of the same element identical?
+2.	Can water stay liquid below zero degrees Celsius?
+3.	Can you light diamond on fire?
+4.	How bad of an alcoholic do you have to be to have your brain affected?
+5.	How can glass be a liquid if it's so hard?
+6.	How do I know if something is an acid so I can avoid eating it?
+7.	How do plants get their nitrogen from the air?
+8.	How does dissolving a salt molecule in water make its atoms ionize?
+9.	How does plasma make a campfire flame orange?
+10.	How does tomato juice make skunk smell go away?
+11.	What is it about the ocean that makes it look blue when it reflects the sky?
+12.	What is the difference between a chemical process and a physical process in chemistry?
+13.	What kind of crystal are crystal drinking glasses made out of?
+14.	What made the hole in the ozone go away?
+15.	What makes a "fluorescent" highlighter marker so bright?
+16.	When does the breaking of chemical bonds release energy?
+17.	When hang-drying clothes, which is faster, indoors or outdoors?
+18.	Which sunscreens are chemical-free?
+19.	Why are crystals rare?
+20.	Why are there so many different kinds of forces in chemistry?
+21.	Why do atoms always contain the same number of electrons and protons?
+22.	Why doesn't the planet Uranus explode if it contains so much hydrogen and methane?
+23.	Why don't metals burn?
+24.	Why don't objects fuse to my finger when I touch them?
+25.	Why is ice slippery?
+26.	Why is lead used in pencils even though lead is poisonous?
+27.	Why is mass conserved in chemical reactions?
+28.	Why is plastic not used in home construction?
+29.	Why is propane stored in household tanks but natural gas is not?
