@@ -54,18 +54,21 @@ void writefile()
     cout<<"Accepting data to write into the file \n";
 
     char question[500];
+    //string question;
 
     fstream fout("Physics.txt", ios::out);
 
     for(int i=0; i<n_questions; i++)
     {
         cout<<"question "<<(i+1)<<": ";
-        //cin.get(question, 500);
-        cin>>question;
+        fflush(stdin);
+        gets(question);
+        //getline(question);
         fout<<question<<"\n";
     }
     //function to write into the file
 }
+
 void create_question_paper()
 {
     //to create question paper
