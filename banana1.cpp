@@ -13,6 +13,7 @@ class exam{
     int n_questions;
     char subject[30];
     int intermediate;
+    int difficult;
     int easy;
     void writefile();
     public:
@@ -36,11 +37,13 @@ void exam::no_of_questions(){
 }
 
 void exam::question_pattern(){
-    cout<<"Enter number of intermediate questions: ";
-    cin>>intermediate;
     cout<<"Enter number of easy questions: ";
     cin>>easy;
-    n_questions = easy + intermediate;
+    cout<<"Enter number of intermediate questions: ";
+    cin>>intermediate;
+    cout<<"Enter number of difficult questions: ";
+    cin>>difficult;
+    n_questions = easy + intermediate + difficult;
 }//end of fn
 
 void exam::no_of_questions_user()
@@ -54,13 +57,13 @@ void exam::no_of_questions_user()
 
 void exam::easy_phy_readfile()
 {
-    cout<<"Displaying the contents of the file \n";
+    //cout<<"Displaying the contents of the file \n";
     cout<<"Easy\n";
-    fstream fin("Physics.txt", ios::in);
+    fstream fin("physics_easy.txt", ios::in);
     char question[500], ch;
     for(int i=0;  i<easy; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin.get(question, 500);
         cout<<question<<"\n";
         fin.get(ch);
@@ -71,12 +74,23 @@ void exam::easy_phy_readfile()
     char question1[500], ch1;
     for(int i=0;  i<intermediate; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin1.get(question1, 500);
         cout<<question1<<"\n";
         fin1.get(ch1);
     }
     fin1.close();
+    cout<<"Difficult\n";
+    fstream fin12("physics_difficult.txt", ios::in);
+    char question12[500], ch12;
+    for(int i=0;  i<difficult; i++)
+    {
+        //cout<<"question "<<(i+1)<<": ";
+        fin12.get(question12, 500);
+        cout<<question12<<"\n";
+        fin12.get(ch12);
+    }
+    fin12.close();
     /*
     while(fin.getline(s, 300)){
         char ch[100];
@@ -88,13 +102,13 @@ void exam::easy_phy_readfile()
 }
 
 void exam::easy_chem_readfile(){
-    cout<<"Displaying the contents of the file \n";
+    //cout<<"Displaying the contents of the file \n";
     cout<<"Easy\n";
-    fstream fin("Chemistry.txt", ios::in);
+    fstream fin("Chemistry_easy.txt", ios::in);
     char question[500], ch;
     for(int i=0;  i<easy; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin.get(question, 500);
         cout<<question<<"\n";
         fin.get(ch);
@@ -105,12 +119,23 @@ void exam::easy_chem_readfile(){
     char question1[500], ch1;
     for(int i=0;  i<intermediate; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin1.get(question1, 500);
         cout<<question1<<"\n";
         fin1.get(ch1);
     }
     fin1.close();
+    cout<<"Difficult\n";
+    fstream fin12("chemistry_difficult.txt", ios::in);
+    char question12[500], ch12;
+    for(int i=0;  i<difficult; i++)
+    {
+        //cout<<"question "<<(i+1)<<": ";
+        fin12.get(question12, 500);
+        cout<<question12<<"\n";
+        fin12.get(ch12);
+    }
+    fin12.close();
     /*
     while(fin.getline(s, 300)){
         char ch[100];
@@ -122,13 +147,13 @@ void exam::easy_chem_readfile(){
 }//end of fn chem_readfile
 
 void exam::easy_bio_readfile(){
-    cout<<"Displaying the contents of the file \n";
+    //cout<<"Displaying the contents of the file \n";
     cout<<"Easy\n";
-    fstream fin("Biology.txt", ios::in);
+    fstream fin("Biology_easy.txt", ios::in);
     char question[500], ch;
     for(int i=0;  i<easy; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin.get(question, 500);
         cout<<question<<"\n";
         fin.get(ch);
@@ -139,12 +164,23 @@ void exam::easy_bio_readfile(){
     char question1[500], ch1;
     for(int i=0;  i<intermediate; i++)
     {
-        cout<<"question "<<(i+1)<<": ";
+        //cout<<"question "<<(i+1)<<": ";
         fin1.get(question1, 500);
         cout<<question1<<"\n";
         fin1.get(ch1);
     }
     fin1.close();
+    cout<<"Difficult\n";
+    fstream fin12("biology_difficult.txt", ios::in);
+    char question12[500], ch12;
+    for(int i=0;  i<difficult; i++)
+    {
+        //cout<<"question "<<(i+1)<<": ";
+        fin12.get(question12, 500);
+        cout<<question12<<"\n";
+        fin12.get(ch12);
+    }
+    fin12.close();
     /*
     while(fin.getline(s, 300)){
         char ch[100];
