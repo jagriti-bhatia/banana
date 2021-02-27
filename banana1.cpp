@@ -244,3 +244,32 @@ int main()
     ques.create_question_paper();
 }
 
+/*
+void report :: check_access()
+    {
+        system("cls");
+        fflush(stdin);
+        cout<<"Please enter password to access this information."<<endl;
+        char password[20];
+        char p;
+        int i = 0;
+        while(p != 13) //13 is the ASCII value of space
+        {
+            p = getch();
+            if(p != 13)
+            {
+                password[i++] = p;
+                cout<<"*";
+            }
+            else
+            {
+                password[i] = '\0';
+                cout<<endl;
+                break;
+            }
+        }
+        if(strcmp(password, "password") == 0)
+        {
+        }
+}        
+*/
