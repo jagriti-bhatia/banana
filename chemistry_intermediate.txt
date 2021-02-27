@@ -1,1 +1,43 @@
-
+1.	State and explain Kohlrausch’s law of independent migration of ions.
+2.	What is order of a reaction? How is it different from the molecularity of a reaction? Give one example each for first order and second order reactions
+3.	How is ozone prepared? How does ozone react with?
+4.	Explain the acidic nature of phenols and compare it with that of alcohols.
+5.	Explain Werner‘s theory of coordination compounds with suitable examples.
+6.	What are Schottky defects in crystalline solids?
+7.	Calculate the mole fraction of sodium hydroxide in 10% ww NaOH solution
+8.	How is change in Gibbs energy (DG) related to the emf (E) of a galvanic cell?
+9.	What is the role of cryolite in the extraction of aluminium?
+10.	What is catalysis? What are the types of catalysis? Give one example for each type.
+11.	Write short notes on (a) Analgesics and (b) Food Preservatives
+12.	Explain (a) Sandmeyer reaction and (b) Carbylamine reaction.
+13.	What is PHBV? How is it useful to man?
+14.	How do you distinguish between crystal lattice and unit cell?
+15.	Explain the structures of (a) XeF4 and (b) XeOF4
+16.	State Faraday’s First Law of Electrolysis.
+17.	Define osmotic pressure.
+18.	List out any two uses of Neon.
+19.	What are analgesics? How are they classified?
+20.	Name any four enzyme catalysed reactions
+21.	State the Principles involved in writing the electronic configuration of atoms Explain them with examples and necessary diagram.
+22.	2. Explain the classification of elements into S, P, d, f blocks present in the periodic table.
+23.	Define hybridisation of atomic orbitals? Explain the Sp3 and Sp2 hybridisations with respect to ethane and ethylene molecules?
+24.	Explain with example positional and functional isomerisms.
+25.	What is allotrophy? Explain the Structure of anyone of the Crystalline forms of Carbon.
+26.	Explain the stages with equations that are involved in the production of an hydrous magnesium chloride from carnallite.
+27.	How Hydrogen peroxide renovates the old spoiled oil paintings Explain it with relevant reaction.
+28.	Explain Boyle’s and Charle’s Laws based on the postulates of kinetic molecular theory of gases.
+29.	Name two gases which are responsible for global warming
+30.	What is hyperol? Give its formula.
+31.	What is ammonal and give its use?
+32.	Define RMS Velocity? If the RMS Velocity of CO2 gas is 4.4 x 104 Cm/Sec. At a given temperature, find the RMS Velocity of Ethane
+33.	Write any four postulates of kinetic molecular theory of gases.
+34.	Explain electrolytic method of preparation of hydrogen peroxide.
+35.	Explain the structure of diborane on the basis of VBT
+36.	Explain (a) position Isomerism and (b) functional group Isomerism with one example for each of them.
+37.	Explain (a) Wurtz reaction and (b) Friedel- Craft’s alkylation with one example for each of them.
+38.	What are Quantum Numbers? Explain the significance of the four quantum numbers associated with an electron.
+39.	Define first and second ionisation potentials. Why the second ionisation potential of an element is always greater than it’s first ionisation potential?
+40.	Explain any four factors that affect the ionisation potential of an element.
+41.	Explain Boyle’s and Charle’s Laws based on the postulates of kinetic molecular theory of gases.
+42.	State the Principles involved in writing the electronic configuration of atoms Explain them with example and necessary diagram.
+43.	What are Quantum Numbers? Explain the significance of the four quantum numbers associated with an electron.
