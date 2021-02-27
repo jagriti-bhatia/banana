@@ -17,6 +17,7 @@ class exam  {
                 int easy;
                 void writefile();
             public:
+                void pretty_printing();
                 void question_pattern();
                 void no_of_questions_user();
                 void easy_phy_readfile();
@@ -25,6 +26,12 @@ class exam  {
                 void create_question_paper();
                 void no_of_questions();
             }ques;//end of exam
+
+void exam::pretty_printing(){
+    cout<<"                             Banana Public School  \n";
+    cout<<"                            Midterm Question Paper \n";
+    cout<<"Name:                                                                                 Class:\n\n";
+}
 
 void exam::no_of_questions(){
     cout<<"Enter subject: ";
@@ -209,6 +216,7 @@ void exam::writefile()
 
 void exam::create_question_paper(){
     question_pattern();
+    pretty_printing();
 
     if(strcmp("physics", subject) == 0){
         easy_phy_readfile();
