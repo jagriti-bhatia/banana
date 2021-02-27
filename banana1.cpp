@@ -271,5 +271,10 @@ void report :: check_access()
         if(strcmp(password, "password") == 0)
         {
         }
+        else
+        {
+            cout<<"\nIncorrect password. Press any key to continue."<<endl;
+            getch();
+        }
 }        
 */
