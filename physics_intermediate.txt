@@ -1,1 +1,51 @@
+1.	What is the discovery of C V Raman?
+2.	What is the contribution of S Chandra Sekhar to Physics?
+3.	Distinguish between accuracy and precision.
+4.	How can systematic errors be minimised or eliminated?
+5.	What are the significant figures and what do they represent when reporting the result of a measurement?
+6.	Distinguish between fundamental units and derived units.
+7.	Express unified atomic mass and unit in kg.
+8.	The states of motion and rest are relative. Explain.
+9.	How is average velocity different from instantaneous velocity?
+10.	Explain as example where the velocity of an object is zero but its acceleration is not zero.
+11.	A vehicle travels half of the distance L with a speed V1 and the other half with speed V2. What is the average speed?
+12.	What is the acceleration of a projectile at the top of its trajectory?
+13.	When two perpendicular vectors of magnitude 8 units and 21 units combine, what is the magnitude of the resultant?
+14.	If A = i + j, then what is the angle between the vector and X – axis?
+15.	When a bullet is fired from a gun, the gun gives a kick in the backward direction. Explain.
+16.	A bomb is exploded into two pieces; the pieces must travel in opposite directions. Explain.
+17.	Define: Work, Power and energy. State their SI units.
+18.	State the relation between the kinetic energy and momentum of a body.
+19.	Which physical quantity remains constant in an elastic collision?
+20.	Which physical quantity remains constant in an inelastic collision?
+21.	State the conditions under which a force does not work.
+22.	Is it necessary that a mass should be present at the centre of mass of any system?
+23.	Why are spokes provided in a bicycle wheel?
+24.	Why can we not open or close a door by applying force at the hinges?
+25.	Why should a helicopter necessarily have two propellers?
+26.	Give two examples of periodic motion which are not oscillatory.
+27.	Can simple pendulum be used in an artificial satellite?
+28.	State the units and dimensions of the universal gravitational constant.
+29.	Hydrogen is in abundance around the sun but not around the earth, explain.
+30.	What are polar satellites?
+31.	State Hooke's law of elasticity.
+32.	Give two examples of nearly perfect elastic and plastic bodies.
+33.	State the units and dimensions of stress.
+34.	Define viscosity and write its units and dimensions.
+35.	What is the principle behind the carburettor of an automobile?
+36.	Why are drops and bubbles spherical?
+37.	What are water proofing agents and water wetting agents?
+38.	When water flows through a pipe, which of the layer moves fastest and slowest?
+39.	Why gaps are left between rails in a railway track?
+40.	What is latent heat of vaporization?
+41.	State Wein's displacement law.
+42.	What is specific gas constant?
+43.	State Newton's laws of cooling.
+44.	Define Thermal equilibrium.
+45.	Define moral specific heat capacity.
+46.	Why does the brake drum of an automobile get heated up while moving down at constant speed?
+47.	In summer, when the valve of a bicycle tube is opened, the escaping air appears cold. Why?
+48.	Define mean free path.
+49.	State Boyle's law and Charles law.
+50.	Show that the maximum height reached by a projectile launched at an angle of 45 degree is one quarter of its range.
 
