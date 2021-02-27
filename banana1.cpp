@@ -21,9 +21,20 @@ void readfile()
 
 void writefile()
 {
+    int n_questions;
+
+    char question[500];
+
+    fstream fout("Physics.txt", ios::out);
+
+    cout<<"How many questions do you want to enter";
+    cin>>n_questions;
+
     for(int i=0; i<n_questions; i++)
     {
-
+        cout<<"question number "<<(i+1);
+        cin.get(question, 500)
+        fout<<question<<"n\";
     }
     //function to write into the file
 }
