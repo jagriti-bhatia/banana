@@ -1,1 +1,61 @@
+1.	A ball is dropped from a building and simultaneously another ball is projected upward with same velocity. Describe the change in relative velocity of the balls as a function of time.
+2.	State parallelogram of vectors; derive an expression for the magnitude and direction of the resultant vector.
+3.	Show that trajectory of an object thrown at certain angle with the horizontal is a parabola.
+4.	Derive formulae for maximum height and range of a projectile.
+5.	Define null vector, unit vector and position vector.
+6.	Explain average velocity and instantaneous velocity. When are they equal?
+7.	State the law of rolling friction.
+8.	Mention the methods used in decrease the friction.
+9.	Why are shock absorbers used in motor cycles and cars?
+10.	Why is pulling the lawn roller preferred to pushing it?
+11.	Define the terms momentum and impulse. State and explain the law of conservation of linear momentum.
+12.	Derive expressions for the kinetic energy and potential energy of a simple harmonic oscillator.
+13.	Show that in the case of one dimensional elastic collision, the relative velocity of approach of two colliding bodies is equal to the relative velocity of separation of the two bodies after collision.
+14.	Derive an expression for the height attained by a freely falling body after n number of rebounds from the floor.
+15.	Show that two equal masses undergo oblique elastic collision will move at right angle after collision, if the second body is initially at rest.
+16.	Distinguish between centre of mass and centre of gravity.
+17.	Explain about the centre of mass of earth moon system and its rotation around the sun.
+18.	Define vector product. Explain different properties of vector product with examples.
+19.	Define angular velocity and derive its equation.
+20.	Define angular acceleration and torque. Establish the relation between them.
+21.	State Kepler's laws of planetary motion.
+22.	Derive a relation between acceleration due to gravity on a planet and universal gravitational constant.
+23.	How does acceleration due to gravity change for the same values of height (h) and depth (d).
+24.	What is orbital velocity? Obtain an expression for it.
+25.	What is escape velocity? Obtain an expression for it.
+26.	What is geostationary satellite? State its uses.
+27.	Define Hooke's law of elasticity, proportionality, permanent set and breaking stress.
+28.	Define modulus of elasticity, stress and Poisson's ration.
+29.	Define Young's modulus, Bulk modulus and Shear modulus.
+30.	Describe the behaviour of a wire under gradually increasing load.
+31.	State Pascal law and verify it with the help of an experiment.
+32.	Explain dynamic lift with an example.
+33.	Explain surface tension and surface energy.
+34.	What is Torricelli's law? Explain how the speed of efflux is determined with an experiment.
+35.	What is Venturi-meter? Explain how it is used.
+36.	Explain hydraulic lift and hydraulic brakes.
+37.	In what way is the anomalous behaviour of water advantageous to aquatic animals?
+38.	Pendulum clocks generally go fast in winter and slow in summer. Why?
+39.	State and explain the first law of Thermodynamics.
+40.	Derive a relation between two specific heat capacities of gas on the basis of first law of thermodynamics.
+41.	Write the difference between isothermal and adiabatic process.
+42.	Explain briefly about the working of a heat engine.
+43.	Explain Quassi-static process.
+44.	Explain the concept of absolute zero of temperature on the basis of kinetic theory.
+45.	State and prove law of conservation of energy in case of freely falling body.
+46.	What are collisions? Explain the possible types of collisions? Develop the theory of one dimensional elastic collision.
+47.	State and prove parallel axis theorem.
+48.	State and prove perpendicular axis theorem.
+49.	State and prove principle of principle of conservation of angular momentum. Explain the principle of conservation of angular momentum with examples.
+50.	Define simple harmonic motion. Show that the motion of projection of a particle performing uniform circular motion, on any diameter is simple harmonic.
+51.	Show that the motion of a simple pendulum is simple harmonic and hence derive an equation for its time period. Define second pendulum.
+52.	State and explain the universal law of gravitation. Explain the determination of value of G by using Cavendish method.
+53.	Describe how the value of g varies from place to place (above and below the surface of the earth).
+54.	Define Hooke's law of elasticity and describe an experiment to determine the Young's modulus of the metal wire.
+55.	Define coefficient of viscosity. Explain Stoke's law.
+56.	State Bernoulli's principle from conservation of energy in a fluid flow through a tube. Derive the equation and give an example for Bernoulli's theorem.
+57.	State Boyle's law and Charles's law; derive ideal gas equation.
+58.	Explain the reversible and irreversible process. Describe the working of Carnot engine.
+59.	State second law of Thermodynamics, how is the heat engine different from a refrigerator?
+60.	Derive an expression for the pressure of an ideal gas in a container from kinetic theory and hence give kinetic interpretation of temperature.
 
