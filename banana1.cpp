@@ -12,11 +12,18 @@ using namespace std;
 class exam
 {
 
-}question_paper;//end of exam
+};//end of exam
 
 void readfile()
 {
-    //function to read the file
+    fstream fin("Physics.txt", ios::in);
+    char s[300];
+    while(fin.getline(s, 300)){
+        char ch[100];
+        fin>>ch;
+        cout<<ch;
+    }//end of while
+    fin.close();
 }
 
 void writefile()
@@ -33,34 +40,31 @@ void writefile()
     for(int i=0; i<n_questions; i++)
     {
         cout<<"question number "<<(i+1);
-        cin.get(question, 500)
-        fout<<question<<"n\";
+        //cin.get(question, 500);
+        cin>>question;
+        fout<<question<<"\n";
     }
     //function to write into the file
 }
-
 void create_question_paper()
 {
     //to create question paper
 }
-
 int main()
 {
-    cout<<"Hello World!";
-
-    fstream fin;
+    //cout<<"Hello World!";
+    writefile();
+    readfile();
+    /*fstream fin;
     fin.open("Physics.txt", ios::in);
     //read file here
     fin.close();
-
     fstream fin;
     fin.open("Chemistry.txt", ios::in);
     //read file here
     fin.close();
-
     fstream fin;
     fin.open("Biology.txt", ios::in);
     //read file here
-    fin.close();
+    fin.close();*/
 }
-
