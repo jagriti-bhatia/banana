@@ -1,14 +1,3 @@
-1.	Are gender traits completely a result of societal expectations?
-2.	Are there any parts of the human body that get oxygen directly from the air and not from the blood?
-3.	Are there nuclear reactions going on in our bodies?
-4.	Can humans ever directly see a photon?
-5.	Can I turn my cat into a diamond?
-6.	Do blind people dream in visual images?
-7.	Do Kirlian photographs show the soul of an organism?
-8.	Do koalas eat honey like other bears?
-9.	Do poppy seeds contain narcotics?
-10.	Does the human body contain minerals?
-11.	How can the heart be strong enough to pump blood up your legs against gravity?
 12.	How can we differentiate so many different foods if we can only taste four flavors on our tongue: sweet, bitter, sour, and salty?
 13.	How can we unlock the 90% of our brain that we never use?
 14.	How did doctors create my belly button?
@@ -51,4 +40,15 @@
 51.	Why don't trees freeze and burst in the winter like cold pipes?
 52.	Why have humans evolved to be taller over the last three hundred years?
 53.	Why will a mother bird abandon its chick if touched by a human?
+1.	Are gender traits completely a result of societal expectations?
+2.	Are there any parts of the human body that get oxygen directly from the air and not from the blood?
+3.	Are there nuclear reactions going on in our bodies?
+4.	Can humans ever directly see a photon?
+5.	Can I turn my cat into a diamond?
+6.	Do blind people dream in visual images?
+7.	Do Kirlian photographs show the soul of an organism?
+8.	Do koalas eat honey like other bears?
+9.	Do poppy seeds contain narcotics?
+10.	Does the human body contain minerals?
+11.	How can the heart be strong enough to pump blood up your legs against gravity?
 
