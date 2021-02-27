@@ -12,7 +12,7 @@ using namespace std;
 class exam
 {
 
-};//end of exam
+}question_paper;//end of exam
 
 void readfile()
 {
