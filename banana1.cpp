@@ -6,6 +6,7 @@
 #include<iomanip>
 #include<process.h>
 #include<fstream>
+#include<conio.h>
 
 using namespace std;
 
@@ -25,12 +26,123 @@ class exam  {
                 void easy_bio_readfile();
                 void create_question_paper();
                 void no_of_questions();
+                void check_access();
             }ques;//end of exam
 
 void exam::pretty_printing(){
+    system("cls");
     cout<<"                             Banana Public School  \n";
     cout<<"                            Midterm Question Paper \n";
     cout<<"Name:                                                                                 Class:\n\n";
+}
+
+void exam::check_access(){
+    system("cls");
+    char check;
+    char subject[20];
+    cout<<"Are you an expert? (Y - yes)\n";
+    cin>>check;
+    if(check == 'y' || check == 'Y')
+    {
+        cout<<"Enter subject you would like edit the question bank in \n";
+        cin>>subject;
+        char pin[100];
+        int k=0;
+        if(strcmpi(subject,"physics")==0)
+        {
+            cout<<"Enter  password : ";
+            while(pin[k-1]!='\r')
+            {
+                pin[k]=getch();
+                if(pin[k-1]!='\r')
+                {
+                    cout<<"*";
+                }
+                k++;
+            }
+            pin[k-1]='\0';
+            if(strcmpi(pin,"banana_p")==0)
+            {
+                cout<<"call writefile here";
+            }
+            else
+            {
+                cout<<"Access Denied. \n";
+                cout<<"Thank you for using our software!";
+            }
+        }
+        else if(strcmpi(subject,"chemistry")==0)
+        {
+            cout<<"Enter  password : ";
+            while(pin[k-1]!='\r')
+            {
+                pin[k]=getch();
+                if(pin[k-1]!='\r')
+                {
+                    cout<<"*";
+                }
+                k++;
+            }
+            pin[k-1]='\0';
+            if(strcmpi(pin,"banana_c")==0)
+            {
+                cout<<"call writefile here";
+            }
+            else
+            {
+                cout<<"Access Denied. \n";
+                cout<<"Thank you for using our software!";
+            }
+        }
+        else if(strcmpi(subject,"biology")==0)
+        {
+            cout<<"Enter  password : ";
+            while(pin[k-1]!='\r')
+            {
+                pin[k]=getch();
+                if(pin[k-1]!='\r')
+                {
+                    cout<<"*";
+                }
+                k++;
+            }
+            pin[k-1]='\0';
+            if(strcmpi(pin,"banana_b")==0)
+            {
+                cout<<"call writefile here";
+            }
+            else
+            {
+                cout<<"Access Denied. \n";
+                cout<<"Thank you for using our software!";
+            }
+        }
+
+        else
+        {
+            cout<<"Access Denied. \n";
+            cout<<"Thank you for using our software!";
+        }
+    }
+    else
+    {
+        cout<<"Access Denied. \n";
+        cout<<"Thank you for using our software!";
+    }
+
+    /*char pin[100];
+    int k=0;
+    cout<<"Enter  password : ";
+    while(pin[k-1]!='\r') {
+        pin[k]=getch();
+        if(pin[k-1]!='\r') {
+            cout<<"*";
+        }
+        k++;
+    }
+    pin[k-1]='\0';
+    cout<<"\nYou entered : "<<pin<<endl;
+    */
 }
 
 void exam::no_of_questions(){
@@ -45,6 +157,7 @@ void exam::no_of_questions(){
 }
 
 void exam::question_pattern(){
+    //system("cls");
     cout<<"Enter number of easy questions: ";
     cin>>easy;
     cout<<"Enter number of intermediate questions: ";
@@ -61,6 +174,8 @@ void exam::no_of_questions_user()
     cout<<"How many questions do you want to enter? ";
     cin>>n_questions_user;
 }
+
+
 
 void exam::easy_phy_readfile()
 {
@@ -220,20 +335,24 @@ void exam::create_question_paper(){
 
     if(strcmp("physics", subject) == 0){
         easy_phy_readfile();
+        getch();
     }
 
     else if(strcmp("chemistry", subject)== 0){
         cout<<"Chem";
         easy_chem_readfile();
+        getch();
     }
 
     else if(strcmp("biology", subject)== 0){
         cout<<"Bio";
         easy_bio_readfile();
+        getch();
     }
 
     else{
         cout<<"Invalid input";
+        getch();
     }
 
 }
@@ -242,39 +361,23 @@ int main()
 {
     ques.no_of_questions();
     ques.create_question_paper();
+    ques.check_access();
 }
 
 /*
-void report :: check_access()
-    {
-        system("cls");
-        fflush(stdin);
-        cout<<"Please enter password to access this information."<<endl;
-        char password[20];
-        char p;
-        int i = 0;
-        while(p != 13) //13 is the ASCII value of space
-        {
-            p = getch();
-            if(p != 13)
-            {
-                password[i++] = p;
-                cout<<"*";
-            }
-            else
-            {
-                password[i] = '\0';
-                cout<<endl;
-                break;
-            }
+void exam::check_access(){
+    system("cls");
+    char pin[100];
+    int k=0;
+    cout<<"Enter  password : ";
+    while(pin[k-1]!='\r') {
+        pin[k]=getch();
+        if(pin[k-1]!='\r') {
+            cout<<"*";
         }
-        if(strcmp(password, "password") == 0)
-        {
-        }
-        else
-        {
-            cout<<"\nIncorrect password. Press any key to continue."<<endl;
-            getch();
-        }
-}        
+        k++;
+    }
+    pin[k-1]='\0';
+    cout<<"\nYou entered : "<<pin<<endl;
+}
 */
