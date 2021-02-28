@@ -70,8 +70,6 @@ void exam::pretty_printing(){
 }
 
 void exam::get_data_user(){
-    //cout<<"Enter subject you want to provide question: ";
-    //cin>>expsub;
     int i;
     for(i=0; i<strlen(expsub); i++)
     {
@@ -96,7 +94,6 @@ void exam::check_access(){
     {
         cout<<"Enter subject you would like edit the question bank in \n";
         cin>>expsub;
-        //strcpy(subject, expsub);
         char pin[100];
         int k=0;
         if(strcmpi(expsub,"physics")==0)
@@ -180,20 +177,6 @@ void exam::check_access(){
         cout<<"Access Denied. \n";
         cout<<"Thank you for using our software!";
     }
-
-    /*char pin[100];
-    int k=0;
-    cout<<"Enter  password : ";
-    while(pin[k-1]!='\r') {
-        pin[k]=getch();
-        if(pin[k-1]!='\r') {
-            cout<<"*";
-        }
-        k++;
-    }
-    pin[k-1]='\0';
-    cout<<"\nYou entered : "<<pin<<endl;
-    */
 }
 
 void exam::no_of_questions(){
@@ -209,7 +192,6 @@ void exam::no_of_questions(){
 }
 
 void exam::question_pattern(){
-    //system("cls");
     cout<<"Enter number of easy questions: ";
     cin>>easy;
     cout<<"Enter number of intermediate questions: ";
@@ -365,21 +347,6 @@ void exam::easy_bio_readfile(){
 
 void exam::writefile_physics_easy()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "physics")== 0)&& (strcmp(diff_level, "easy")== 0)){
         fstream fout("physics_easy.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -393,27 +360,10 @@ void exam::writefile_physics_easy()
             fout<<"\n"<<n_physics_easy<<".  "<<qs;
         }
         fout.close();
-   // }//end of if
-
 }
 
 void exam::writefile_physics_intermediate()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "physics")== 0)&& (strcmp(diff_level, "intermediate")== 0)){
         fstream fout("physics_intermediate.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -427,27 +377,10 @@ void exam::writefile_physics_intermediate()
             fout<<"\n"<<n_physics_intermediate<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::writefile_physics_difficult()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "physics")== 0)&& (strcmp(diff_level, "difficult")== 0)){
         fstream fout("physics_difficult.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -461,27 +394,10 @@ void exam::writefile_physics_difficult()
             fout<<"\n"<<n_physics_difficult<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::writefile_chemistry_easy()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "chemistry")== 0)&& (strcmp(diff_level, "easy")== 0)){
         fstream fout("chemistry_easy.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -495,27 +411,10 @@ void exam::writefile_chemistry_easy()
             fout<<"\n"<<n_chemistry_easy<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::writefile_chemistry_intermediate()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "chemistry")== 0)&& (strcmp(diff_level, "intermediate")== 0)){
         fstream fout("chemistry_intermediate.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -529,27 +428,10 @@ void exam::writefile_chemistry_intermediate()
             fout<<"\n"<<n_chemistry_intermediate<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::writefile_chemistry_difficult()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "chemistry")== 0)&& (strcmp(diff_level, "difficult")== 0)){
         fstream fout("chemistry_difficult.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -563,27 +445,10 @@ void exam::writefile_chemistry_difficult()
             fout<<"\n"<<n_chemistry_difficult<<".  "<<qs;
         }
         fout.close();
-   // }//end of if
-
 }
 
 void exam::writefile_biology_easy()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "biology")== 0)&& (strcmp(diff_level, "easy")== 0)){
         fstream fout("biology_easy.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -597,27 +462,10 @@ void exam::writefile_biology_easy()
             fout<<"\n"<<n_biology_easy<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::writefile_biology_intermediate()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "biology")== 0)&& (strcmp(diff_level, "intermediate")== 0)){
         fstream fout("biology_intermediate.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -631,28 +479,11 @@ void exam::writefile_biology_intermediate()
             fout<<"\n"<<n_biology_intermediate<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 
 void exam::writefile_biology_difficult()
 {
-    //cout<<"Accepting data to write into the file \n";
-
-    /*char question[500];
-
-    fstream fout("Physics.txt", ios::out);
-
-    for(int i=0; i<n_questions; i++)
-    {
-        cout<<"question "<<(i+1)<<": ";
-        fflush(stdin);
-        gets(question);
-        fout<<question<<"\n";
-    }*/
-    //get_data_user();
-    //if((strcmp(expsub, "biology")== 0)&& (strcmp(diff_level, "difficult")== 0)){
         fstream fout("biology_difficult.txt", ios::out|ios::app);
         char qs[100];
         int nqs;
@@ -666,8 +497,6 @@ void exam::writefile_biology_difficult()
             fout<<"\n"<<n_biology_difficult<<".  "<<qs;
         }
         fout.close();
-    //}//end of if
-
 }
 
 void exam::onlyphy(){
@@ -682,7 +511,7 @@ void exam::onlyphy(){
     else if((strcmp(diff_level, "difficult")== 0)){
         writefile_physics_difficult();
     }
-}//end of only phy
+}
 
 void exam::onlychem(){
     get_data_user();
@@ -712,7 +541,6 @@ void exam::onlybio(){
 }
 
 void exam::create_question_paper(){
-    //system("cls");
     no_of_questions();
     question_pattern();
     pretty_printing();
@@ -782,27 +610,5 @@ void exam::main_menu(){
 
 int main()
 {
-    //ques.welcome_screen();
-    //ques.no_of_questions();
-    //ques.create_question_paper();
-    //ques.check_access();
     ques.main_menu();
 }
-
-/*
-void exam::check_access(){
-    system("cls");
-    char pin[100];
-    int k=0;
-    cout<<"Enter  password : ";
-    while(pin[k-1]!='\r') {
-        pin[k]=getch();
-        if(pin[k-1]!='\r') {
-            cout<<"*";
-        }
-        k++;
-    }
-    pin[k-1]='\0';
-    cout<<"\nYou entered : "<<pin<<endl;
-}
-*/
