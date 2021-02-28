@@ -1,6 +1,6 @@
-Team - banana
-Team members - Jagriti Bhatia
-               Preethika Ajay Kumar
+Team - banana  
+Team members - Jagriti Bhatia  
+               Preethika Ajay Kumar  
 Project - Question Paper Generator
 
 have a nice day!
