@@ -1,0 +1,17 @@
+                                                                                SPACE JAM 2021
+                                                                           QUESTION PAPER GENERATOR
+
+Team Name    – banana 37
+Team members – Jagriti Bhatia
+		           Preethika Ajay Kumar
+               
+                                                                              This is a tagline
+                                                                              
+Our aim build and implement an automatic Question Paper Generator. The basic sketch of the project is to compartmentalise questions based on subjects and difficulty level. The user can choose their preferences of the above and a question paper shall be generated instantaneously. Question Paper Generator is a software designed to help teachers generate question papers for students every academic session. The whole program is designed in a way that it can be expanded up to any level.
+
+Problem it solves:
+Teachers play an important role in our life. A good teacher helps us to become a good human being in society and a responsible citizen. Appreciation of teachers is very important because they are the most important people in our lives. Teachers work tirelessly for us. Thus, out of respect we must try to lessen their burden. One tedious task that teachers must do is design question papers for all the students. Our project, ‘Question Paper Generator’ is an attempt to make this task easier. It provides a user friendly environment that is easy is easy to use and implement.
+
+Challenges:
+The challenges faced by our program include the questions in the question paper are not choosen randomly. Due to lack of time it was not something we could succeed in implementing. Once the expert enters questions into the question bank, it offers not verification for the same.
+
