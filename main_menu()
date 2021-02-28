@@ -1,0 +1,38 @@
+void exam::main_menu(){
+
+
+        char choice;
+        char cont = 'y';
+        do
+        {
+            system("cls");
+            cout<<"\n\n\nQUESTION PAPER GENERATOR";
+            cout<<"\n\n1. Generate a question paper.";
+            cout<<"\n\n2. Modify the question bank";
+            cout<<"\n\n3. Exit.";
+            cout<<"\n\nEnter your choice: \n";
+            cin>>choice;
+            switch(choice)
+            {
+                case '1':
+                          while(cont == 'y' || cont == 'Y')
+                            {
+                                ques.create_question_paper();
+                                cout<<"\nDo you want to create another question paper? (y/n)"<<endl;
+                                cin>>cont;
+                            }
+                          break;
+                case '2': writefile();
+                          break;
+                case '3': //function to exit program
+                          exit(0);
+                default : cout<<"\nInvalid choice.\nPress any key to continue.\n";
+                          getch();
+                          break;
+            } //end of switch case
+        } while(1);
+        return;
+
+
+
+}
