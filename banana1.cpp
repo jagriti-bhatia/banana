@@ -27,7 +27,16 @@ class exam  {
                 void create_question_paper();
                 void no_of_questions();
                 void check_access();
+                void welcome_screen();
             }ques;//end of exam
+
+void exam::welcome_screen(){
+    cout<<"                                  WELCOME TO\n";
+    cout<<"                            QUESTION PAPER GENERATOR\n";
+    cout<<"\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    cout<<"Press any key to continue";
+    getch();
+}
 
 void exam::pretty_printing(){
     system("cls");
@@ -146,6 +155,7 @@ void exam::check_access(){
 }
 
 void exam::no_of_questions(){
+    system("cls");
     cout<<"Enter subject: ";
     cin>>subject;
 
@@ -330,6 +340,7 @@ void exam::writefile()
 }
 
 void exam::create_question_paper(){
+    //system("cls");
     question_pattern();
     pretty_printing();
 
@@ -359,6 +370,7 @@ void exam::create_question_paper(){
 
 int main()
 {
+    ques.welcome_screen();
     ques.no_of_questions();
     ques.create_question_paper();
     ques.check_access();
