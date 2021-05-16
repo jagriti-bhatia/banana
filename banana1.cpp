@@ -8,6 +8,8 @@
 #include<fstream>
 #include<conio.h>
 
+//checking in from cmd
+
 using namespace std;
 
 //this is the main code
