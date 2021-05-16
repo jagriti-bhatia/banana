@@ -10,6 +10,7 @@
 
 using namespace std;
 
+//this is the main code
 class exam  {
                 int n_questions;
                 char subject[30];
